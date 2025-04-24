@@ -221,3 +221,23 @@ nav img {
 .exp-free-learning:hover {
     box-shadow: 0px 0px 8px rgb(241, 241, 241);
 }
+
+/* page 3  */
+
+.last {
+    padding-left: 4vw;
+}
+
+.l-one h1 {
+    color: white;
+    font-family: NeueMachina-Regular;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 44px;
+    margin-bottom: 3vw;
+}
+
+.course-img img {
+    width: 350px;
+    height: 320px;
+}
