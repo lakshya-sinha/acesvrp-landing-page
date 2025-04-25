@@ -1,4 +1,45 @@
 @media (max-width: 650px) {
+    #blogs {
+        display: none;
+    }
+
+    #exp-courses {
+        font-size: 18px;
+    }
+
+    .courses-box {
+        width: 90vw;
+    }
+
+    .courses-box img {
+        width: 90vw;
+    }
+
+    .course-btn {
+        width: 90vw;
+    }
+
+    .second-row {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #details {
+        font-size: 10px;
+    }
+
+    #we-title {
+        font-size: 22px;
+    }
+
+    .verify-we-row {
+        font-size: 13px;
+    }
+
+    .ff-two {
+        margin-bottom: 22px;
+    }
+
     body {
         background-size: cover;
         background-color: black;
