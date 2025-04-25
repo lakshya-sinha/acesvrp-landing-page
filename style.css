@@ -262,7 +262,6 @@ nav img {
     height: calc(320px * 2 - 50px);
     border: 1px solid rgba(6, 130, 141, 0.3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0px 0px 12px rgba(2, 188, 188, 0.2);
 }
 
 .course-wrapper {
@@ -337,4 +336,169 @@ nav img {
 h2 {
     color: rgba(255, 255, 255, 0.999);
     font-weight: 650;
+}
+
+/* Page 4  */
+
+
+.last2 {
+    padding-left: 4vw;
+    padding-top: 5vw;
+    width: 100%;
+    height: 100%;
+}
+
+.l2-one {
+    width: 100%;
+}
+
+.we-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.we-wrapper>h1 {
+    font-family: NeueMachina-Regular;
+    color: white;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.we-details-row {
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+}
+
+.we-details-row-first img {
+    width: 30vw;
+    border: 1px solid rgba(212, 212, 212, 0.1);
+    border-radius: 5px;
+}
+
+.we-details-row-second>h4 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.yellow-we {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.we-details-row-second #details {
+    width: 70%;
+}
+
+.verify-we-row {
+    margin-top: 40px;
+    display: grid;
+    row-gap: 10px;
+}
+
+#we-title {
+    font-family: NeueMachina-Regular;
+}
+
+#since {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#details {
+    margin-top: 9px;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.verify-we-row {
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 13px;
+    word-spacing: 3px;
+    font-weight: 300;
+}
+
+.verify-we-row i {
+    color: rgb(16, 206, 206);
+}
+
+
+/* page 5  */
+
+
+marquee {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(10, 80, 123, 0.3);
+    background: transparent;
+    padding: 1vw;
+    transition: all ease 0.4s;
+    position: relative;
+    animation-name: widthMarquee;
+    animation-timeline: view();
+    animation-timing-function: ease;
+
+}
+
+marquee::before {
+
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(4, 59, 179, 0.4);
+    /* Optional: Add a subtle background color */
+    /* Adjust the blur amount as desired */
+    /* Place behind the div content */
+
+}
+
+@keyframes widthMarquee {
+    from {
+        width: 20%;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+.last3 {
+    margin-top: 4vw;
+    margin-bottom: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.last3 h1 {
+    font-family: NeueMachina-Regular;
+    font-weight: 200;
+    font-size: 44px;
+    color: rgba(224, 224, 224, 1);
+    margin-bottom: 3vw;
+}
+
+#last3-move {
+    height: 80px;
+    object-fit: cover;
+    filter: invert(25%);
+    filter: drop-shadow(0 0 0.655rem rgba(149, 252, 208, 0.9));
+    margin-left: 100px;
 }
